@@ -1,0 +1,24 @@
+.nav{
+    position: fixed;
+    right: 0; top: 0;
+    width: 10%;
+    min-width: 100px;
+    height: 100vh;
+    z-index: 999;
+    background: rgba(173, 216, 230,.8);
+    padding: 50px 20px; box-sizing: border-box;
+    ul{
+        list-style: none; text-align: center;
+        li{
+            margin-bottom: 10px;
+            border-bottom: none;
+            border-bottom: 1px solid #555;
+            transition: .3s;
+            &:hover{border-bottom: 1px solid #aaa;}
+            &:hover a{color: #aaa;}
+            a{
+                text-decoration: none; color: #555; font-size: 20px;
+            }
+        }
+    }
+}
